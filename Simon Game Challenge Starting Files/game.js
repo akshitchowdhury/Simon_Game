@@ -1,0 +1,1 @@
+alert("WC to the Simon game")
