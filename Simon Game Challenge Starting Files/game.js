@@ -20,3 +20,8 @@ var randomChosenColour = buttoncolors[randomnumber]
 gamePattern.push(randomChosenColour)
 }
 
+let audio = new Audio("./sounds/"+randomChosenColour+".mp3")
+
+
+
+$("#"+randomChosenColour).fadeOut(100).fadeIn(100).play()
